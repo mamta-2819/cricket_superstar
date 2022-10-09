@@ -63,7 +63,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-12 col-md-12">
+                                <div class="col-lg-12 col-md-12 text-center">
                                     <button type="submit" class="default-btn">Register</button>
                                     <div id="msgSubmit" class="h3 text-center hidden"></div>
                                     <div class="clearfix"></div>
