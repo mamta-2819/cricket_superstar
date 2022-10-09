@@ -14,23 +14,27 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-// Route::get('login/',function(){
+    return view('welcome');});
+
+Route::get('register', function() {
+    return view('register');})->name('register');
+    
+Route::get('login', function() {
+    return view('login');})->name('login');
+    
+Route::get('player', function() {
+    return view('player');})->name('player');
+    
+    // Route::get('login/',function(){
 //     return view('login');
 // });
 // Route::get('register/',function(){
 //     return view('register');
 // });
 
-Route::get('register', function() {
-    return view('register');})->name('register');
 
-Route::get('login', function() {
-    return view('login');})->name('login');
+
 
 Route::get('list', function() {
     return view('list');})->name('list');
 
-Route::get('player', function() {
-    return view('player');})->name('player');

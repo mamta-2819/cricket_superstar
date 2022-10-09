@@ -80,7 +80,7 @@ body {
   /* background-color: var(--blackColor); */
   background-size: contain;
   /* background-image: url(../img/field.jpg); */
-  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../img/field.jpg);
+  background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../img/field.jpg);
   color: var(--whiteColor);
   padding: 0;
   margin: 0;
@@ -783,7 +783,7 @@ Navbar Area CSS
 
 .navbar-area {
   position: absolute;
-  background-color: transparent;
+  background-color: #010a31;
   top: 0;
   left: 0;
   width: 100%;
@@ -1716,7 +1716,8 @@ Matches Area CSS
 
 .matches-area.bg-image {
   /* background-image: url(../img/matches-bg.jpg); */
-  background-image: url(../img/main-banner-bg23.jpg);
+  background-image: url(../img/field.jpg);
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../img/field.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1728,33 +1729,34 @@ Matches Area CSS
 
 .single-matches-box .matches-team {
   position: relative;
-  padding-left: 100px;
+  /* padding-left: 100px; */
   padding-top: 45px;
 }
 
 .single-matches-box .matches-team img {
   position: absolute;
-  left: 0;
+  left: 70px;
   max-width: 80px;
   top: 0;
 }
 
 .single-matches-box .matches-team .content {
-  text-align: right;
+  text-align: center;
 }
 
 .single-matches-box .matches-team .content h3 {
   margin-bottom: 0;
+  margin-top: -35px;
   text-transform: uppercase;
   background-image: url(../img/matches-bg1.png);
   background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 700;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-right: 55px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
 }
 
 .single-matches-box .matches-team .content .watch-list {
@@ -1762,7 +1764,7 @@ Matches Area CSS
   padding-left: 0;
   padding-right: 54px;
   margin-bottom: 0;
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 
 .single-matches-box .matches-team .content .watch-list li {
@@ -1773,7 +1775,7 @@ Matches Area CSS
 .single-matches-box .matches-team .content .watch-list li span {
   display: block;
   text-transform: uppercase;
-  color: var(--mainColor);
+  color: #fff;
   font-size: 20px;
   font-weight: 400;
 }
@@ -1877,7 +1879,7 @@ Matches Area CSS
 }
 
 .matches-tabs .nav-tabs {
-  background-color: var(--blackColor);
+  background-color: #010a31;
   border: none;
 }
 
