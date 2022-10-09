@@ -1,55 +1,76 @@
-   {{-- <style>   </style> --}}
-<x-guest>
-    @slot('title','login')
-    @slot('body')
+<!doctype html>
+<html lang="zxx">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Start Contact Area -->
-    <footer class="bg-1b060a">
-        <div class="container">
-            <div class="footer-content">
-                <div class="logo">
-                    <a href="#" class="d-inline-block"><img src="{{url('img/logo.png')}}" alt="image"></a>
+        <!-- Links of CSS files -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/boxicons.min.css">
+        <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <link rel="stylesheet" href="assets/css/fancybox.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/dark-style.css">
+
+        <title>Zelda - eSports & Gaming HTML Template</title>
+
+        <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    </head>
+
+    <body>
+
+        <!-- Start Coming Soon Area -->
+        <div class="coming-soon-area">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="coming-soon-content">
+                        <a href="index.html" class="logo">
+                            <img src="assets/img/logo.png" alt="image">
+                        </a>
+                        <h2>We Are Launching Soon</h2>
+                        <div id="timer" class="flex-wrap d-flex justify-content-center">
+                            <div id="days" class="align-items-center flex-column d-flex justify-content-center"></div>
+                            <div id="hours" class="align-items-center flex-column d-flex justify-content-center"></div>
+                            <div id="minutes" class="align-items-center flex-column d-flex justify-content-center"></div>
+                            <div id="seconds" class="align-items-center flex-column d-flex justify-content-center"></div>
+                        </div>
+                        <form class="newsletter-form" data-bs-toggle="validator">
+                            <div class="form-group">
+                                <input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required autocomplete="off">
+                            </div>
+                            <button type="submit" class="default-btn"><i class="flaticon-user"></i>Subscribe<span></span></button>
+                            <div id="validator-newsletter" class="form-result"></div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- End Contact Area -->
-    <!-- Start Main Banner Area -->
-    <div class="home-slides owl-carousel owl-theme">
-        <div class="single-banner-item banner-bg1 jarallax" data-jarallax='{"speed": 0.3}'>
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                  
+        <!-- End Coming Soon Area -->
 
-                    <div class="col-lg-7 col-md-12">
-                        <div class="main-banner-image">
-                            <img src="{{url('img/battle.jpg')}}" alt="image" class="bor-rad-30">
-                        </div>
-                    </div>
+        <div class="zelda-cursor"></div>
+        <div class="zelda-cursor2"></div>
 
-                    <div class="col-lg-5 col-md-12">
-                        <div class="main-banner-content">
-                            <!-- <span class="sub-title">Enjoy The Game</span> -->
-                            <div class="logo  text-center">
-                                
-                                <img src="{{url('img/zelda.png')}}" alt="image">
-                            </div>
-                            <!-- <h6>Available Now</h6> -->
-                            <div class="btn-box">
-                                <a href="{{ route('register') }}" class="default-btn">Register Now</a>
-                                <a href="{{route('login')}}" class="optional-btn">Login Here</a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-
-       
-    </div>
-    <!-- End Main Banner Area -->
-
-    @endslot
-</x-guest>
+        <!-- Links of JS files -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/magnific-popup.min.js"></script>
+        <script src="assets/js/parallax.min.js"></script>
+        <script src="assets/js/meanmenu.min.js"></script>
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+        <script src="assets/js/cursor.min.js"></script>
+        <script src="assets/js/fancybox.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/form-validator.min.js"></script>
+        <script src="assets/js/contact-form-script.js"></script>
+        <script src="assets/js/ajaxchimp.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

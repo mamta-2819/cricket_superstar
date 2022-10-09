@@ -24,13 +24,13 @@ Route::get('/', function () {
 // });
 
 Route::get('register', function() {
-    return view('register');
-})->name('register');
+    return view('register');})->name('register');
 
 Route::get('login', function() {
-    return view('login');
-})->name('login');
+    return view('login');})->name('login');
 
 Route::get('list', function() {
-    return view('list');
-})->name('list');
+    return view('list');})->name('list');
+
+Route::get('player', function() {
+    return view('player');})->name('player');
